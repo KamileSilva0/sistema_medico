@@ -1,0 +1,10 @@
+[ {
+  "nomePlano" : "Bradesco Saúde",
+  "telefones" : [ "22 99999-9999" ]
+}, {
+  "nomePlano" : "Amil",
+  "telefones" : [ "22 99999-9999" ]
+}, {
+  "nomePlano" : "Unimed",
+  "telefones" : [ "22 99999-9999" ]
+} ]

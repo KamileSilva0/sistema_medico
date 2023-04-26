@@ -1,0 +1,16 @@
+[ {
+  "id" : 6,
+  "crm" : "1245",
+  "nomeMedico" : "Patrícia Almeida",
+  "telefones" : [ "22 99999-9999" ]
+}, {
+  "id" : 1,
+  "crm" : "6988",
+  "nomeMedico" : "Fernando Souza",
+  "telefones" : [ "22 99999-9999" ]
+}, {
+  "id" : 5,
+  "crm" : "5978",
+  "nomeMedico" : "Julia Silva ",
+  "telefones" : [ "22 99999-9999" ]
+} ]

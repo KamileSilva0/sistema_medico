@@ -1,0 +1,16 @@
+[ {
+  "nomeEspecialiade" : "Ginecologista",
+  "codEspecialidade" : 5
+}, {
+  "nomeEspecialiade" : "Dermatologista",
+  "codEspecialidade" : 1
+}, {
+  "nomeEspecialiade" : "Nutricionista",
+  "codEspecialidade" : 3
+}, {
+  "nomeEspecialiade" : "Cardiologista",
+  "codEspecialidade" : 2
+}, {
+  "nomeEspecialiade" : "Pediatra",
+  "codEspecialidade" : 4
+} ]

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.MainController">
+   <center>
+      <HBox prefHeight="226.0" prefWidth="426.0" BorderPane.alignment="CENTER">
+         <children>
+              <Label fx:id="label" minHeight="16" minWidth="69">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Label>
+            <GridPane prefHeight="218.0" prefWidth="227.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                    <Button fx:id="button" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="99.0" text="Pacientes " />
+                  <Button fx:id="button2" onAction="#handleButtonActionMedicos" prefHeight="25.0" prefWidth="100.0" text="Médicos" GridPane.rowIndex="1" />
+                  <Button fx:id="button3" onAction="#handleButtonActionPlanos" prefHeight="25.0" prefWidth="107.0" text="Planos de Saúde" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="button4" onAction="#handleButtonActionEspecialidades" prefHeight="25.0" prefWidth="99.0" text="Especialidades" GridPane.columnIndex="1" />
+                  <Button fx:id="button5" onAction="#handleButtonActionConsultas" prefHeight="25.0" prefWidth="99.0" text="Consultas" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </HBox>
+   </center>
+</BorderPane>
